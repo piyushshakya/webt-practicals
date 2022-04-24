@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.con {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("/p1_Form/img/contactBG.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color:#d3d3d3;
+    text-align: center;
+}
+
+.con p{
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.content{
+    display: inline-flex;
+}
+
+.column{
+    align-items: center;
+    text-align: left;
+    color: black;
+    font-size: 18px;
+    font-family:sans-serif;
+    background: #fffefea2;
+    width: 450px;
+    height: auto;
+    margin: 50px;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.column .form{
+    padding: 10px 30px;
+    line-height: 35px;
+    width: auto;
+    background-color: rgba(58, 71, 94, 0.815);
+    color: rgb(255, 255, 255);
+}
+
+td{
+    padding: 2%;
+    /* padding-right: 5%; */
+}
+
+.left-col{
+    padding-right: 20px;
+}
+
+span{
+    padding-right: 15px;
+}
+
+.column .form .input{
+    font-size: large;
+    width: 250px;
+    padding: 10px;
+    background-color: #cacacad5;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.msg{
+    width: 350px;
+    padding: 10px;
+    background-color: #cacacad5;
+    border-radius: 5px;
+    border: none;
+}
+
+.column .submit-btn{
+    margin: 15px 65px;
+    width: 270px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    background: linear-gradient(rgba(8, 8, 8, 0.3), rgba(0, 0, 0, 0.8));
+    color: rgba(255, 255, 255);
+    transition: 0.3s ease-in;
+}
+
+.column .submit-btn:hover{
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(202, 202, 202, 0.8));
+    color: rgb(73, 73, 73);
+}

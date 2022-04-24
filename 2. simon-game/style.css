@@ -1,0 +1,68 @@
+body{
+    background-color: #582500;
+    text-align: center;
+}
+
+#title{
+    color: lightgreen;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    padding: 1% 0;
+}
+
+.container{
+    display: inline;
+    /* width: 50%; */
+    /* margin: auto; */
+}
+
+.btn{
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 17px;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.pressed{
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+
+.gameOver{
+    background-color: red;
+}
+
+@media (max-width: 700px){
+.btn{
+    width: 120px;
+    height: 120px;
+}
+
+}
+
+@media (max-width: 360px){
+    .btn{
+        width: 85px;
+        height: 85px;
+        margin: 10px;
+    }
+}
